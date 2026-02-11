@@ -1,6 +1,3 @@
-@DefaultHostAddress = http://localhost:5031
-@HostAddress = {{DefaultHostAddress}}
-
 ###
 
 # Strings - reverse: simple

@@ -46,7 +46,7 @@ jobs:
       - name: Run HTTP tests
         run: |
           # Overriding HostAddress to point to the docker container port
-          httpyac Project498.WebApi/Project498.WebApi.http --all --var HostAddress=http://localhost:8080
+          httpyac Project498.WebApi/Project498.WebApi.http --all --e container
           
       - name: Stop containers
         if: always()
