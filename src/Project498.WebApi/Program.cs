@@ -20,7 +20,7 @@ if (app.Environment.IsDevelopment())
 {
     using var scope = app.Services.CreateScope();
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await db.Database.EnsureCreatedAsync();
+    //await db.Database.EnsureCreatedAsync();
     
     app.MapOpenApi();
     app.UseSwaggerUI(options =>
