@@ -5,6 +5,7 @@ using Project498.WebApi.Models;
 
 namespace Project498.WebApi.Controllers;
 
+
 [ApiController]
 [Route("api/[controller]")]
 public class UsersController : ControllerBase
